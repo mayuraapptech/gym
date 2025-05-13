@@ -68,6 +68,13 @@ nav {
   text-align: center;
 }
 
+.section-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
 .programs-container, .trainers-container {
   display: flex;
   justify-content: center;
@@ -81,6 +88,13 @@ nav {
   padding: 1.5rem;
   border-radius: 8px;
   flex: 1 1 250px;
+  text-align: center;
+}
+
+.program img, .trainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 form {
